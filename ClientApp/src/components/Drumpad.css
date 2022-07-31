@@ -1,0 +1,27 @@
+.drumpad-row {
+  display: flex;
+}
+
+.drumpad-row.active {
+  background-color: #458588;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+}
+
+.drumpad-cell {
+  width: 50px;
+  height: 50px;
+  background-color: #a89984;
+  border-radius: 5px;
+  border: solid 2px #1d2021;
+  color: #ebdbb2;
+  padding: 5px;
+  margin: 5px;
+}
+
+.drumpad-cell.active {
+  background-color: #98971a;
+}
